@@ -37,7 +37,7 @@ const LinkComponent = () => {
           target="_blank"
           className="border shadow-md border-white rounded-full p-1 cursor-pointer absolute  github"
         >
-          <PiLinkedinLogoLight className=" text-white text-xl" />
+          <PiLinkedinLogoLight className=" text-black text-xl" />
         </Link>
       )}
       {isHover && (
@@ -46,12 +46,12 @@ const LinkComponent = () => {
           target="_blank"
           className="border shadow-md border-white rounded-full p-1 cursor-pointer absolute linkedin"
         >
-          <PiGithubLogoLight className=" text-white text-xl" />
+          <PiGithubLogoLight className=" text-black text-xl" />
         </Link>
       )}
 
       <div className="border border-white rounded-full p-1 cursor-pointer shadow-md">
-        <CiLink className=" text-white text-xl animate-pulse" />
+        <CiLink className=" text-black text-xl animate-pulse" />
       </div>
     </div>
   );

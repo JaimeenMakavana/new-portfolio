@@ -1,5 +1,5 @@
-import Screen1 from "@/components/Screen1";
-import Screen2 from "@/components/Screen2";
+import Experience from "@/components/Experience";
+import Intro from "@/components/Intro";
 import Screen3 from "@/components/Screen3";
 import Screen4 from "@/components/Screen4";
 import Screen5 from "@/components/Screen5";
@@ -9,8 +9,8 @@ import Screen7 from "@/components/Screen7";
 export default function Home() {
   return (
     <main className="h-dvh overflow-hidden relative">
-      <Screen1 />
-      <Screen2 />
+      <Intro />
+      <Experience />
       <Screen3 />
       <Screen4 />
       <Screen5 />
